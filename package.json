@@ -1,0 +1,25 @@
+{
+  "name": "dotOS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build ./res/css/tailwind.css -o ./res/css/tailwind.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manishbajpai055/dotos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manishbajpai055/dotos/issues"
+  },
+  "homepage": "https://github.com/Manishbajpai055/dotos#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "tailwindcss": "^2.0.3"
+  }
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+
+    @variants dark {
+        
+      .filter-invert {
+            filter: invert(1);
+          }
+      .isom2::before{
+            //background: rgba(17, 24, 39, 1) ;
+        }
+      .text-shadow{
+        text-shadow: 5px 29px 30px rgba(3, 3, 3, 0.37);
+      }
+  }
+}

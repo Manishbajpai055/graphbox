@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'poppins', sans-serif !important;
+    scroll-behavior: smooth;
+}
+.bg-blue-55{
+    background:  #eef1fa;
+}
+.svg-color{
+    color : #2563eb
+}
+.text-blue-550{
+    color : #4c0dff;
+}
+.cta-btn-bg-2{
+    width: 160px;
+    height: 62px;
+   
+}
+.cta-btn-bg{
+    width: 160px;
+    height: 62px;
+    background: linear-gradient(65.34deg, rgba(124, 58, 237, 0.9) 20.71%, rgba(206, 32, 168, 0.715) 90.89%);
+}
+
+
+button.LM:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 25px;
+    content: "";
+    height: 2px;
+    left: 50%; 
+    transform: translateX(-50%);
+    position: absolute;
+    background: rgb(61, 58, 255);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  a.LM:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -4px;
+    content: "";
+    height: 2px;
+    left: 0%; 
+    //transform: translateX(-50%);
+    position: absolute;
+    background: rgb(61, 58, 255);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  @media screen and (min-width:360px) {
+  
+      button.LM:hover:after { 
+          width: 31%; 
+          left: 50%; 
+          transform: translateX(-50%);
+      }
+
+      a.LM:hover:after { 
+        width: 31%; 
+        //left: 50%; 
+//        transform: translateX(-50%);
+    }
+  }
+  
+  button.LM:hover:after { 
+    width: 128px; 
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+
+  a.LM:hover:after { 
+    width: 35px; 
+    
+  }
+  
+  
+  
+  
