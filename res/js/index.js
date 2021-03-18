@@ -67,12 +67,15 @@ else if (toggleFeatureAfter.classList.contains('isom') === true ) {
 }
 
 function  work(){
-
   document.getElementById('work').scrollIntoView({behavior: "smooth"})
 }
 
+function  Contact(){
+  document.getElementById('Contact').scrollIntoView({behavior: "smooth"})
+}
 
 
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -98,6 +101,7 @@ function scrollFunction() {
     }
 }
 
+*/
 
 //projects function
 

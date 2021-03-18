@@ -46,14 +46,14 @@
             <p class="lg:px-4 px-4 md:px-0 text-2xl text-gray-500 w-11/12 md:w-full leading-normal ">Brand identity, graphic design, 3D modeling, UI/UX design and Web development</p>
             <div class="flex flex-row mx-4 md:mx-0 lg:mx-4 my-6">
                 
-                <button class="cta-btn-bg text-lg font-bold text-white px-8 ">
+                <button onclick="Contact()" class="cta-btn-bg text-lg font-bold text-white px-8 ">
                     Lets Talk</button>
                 <button onclick="work()" class="cta-btn-bg-2 ml-4 bg-blue-600 text-gray-100 font-semibold text-lg ">
                 Our Work </button>
             </div>
         </div>
         <div class="order-1 lg:flex place-content-center">
-            <video  muted="" playsinline="" crossorigin="" loop="" autoplay="" src="res/assets/reel.mp4"></video>
+            <video  muted="" playsinline="" crossorigin="" loop="" utoplay="" src="res/assets/reel.mp4"></video>
             
         </div>
     </div>
@@ -179,10 +179,20 @@
         </div>
     </Section>
 
-    <section class="bg-blue-500">
+    <section id="Contact" class="bg-blue-500">
         <div class="text-center py-16 relative">
             <h1 class="text-4xl font-bold text-gray-50">Have a Project in mind?</h1>
-            <button class="bg-white text-gray-600 text-2xl mt-10 p-4">contact Us</button>
+            <div class=" md:py-10 ">
+                <form class="flex flex-col place-items-center pt-10" action="">
+                    <input class="text-gray-500 p-4 border-2 w-11/12 md:w-2/4 border-blue-500 my-2" type="text" autocomplete="" placeholder="Your Name" name="" id="">
+                    <input class="text-gray-500 p-4 border-2 w-11/12 md:w-2/4 border-blue-500 my-2" autocomplete="" type="text" placeholder="Your email" name="" id="">
+                    <textarea class="text-gray-500 p-4 border-2 w-11/12 md:w-2/4 border-blue-500 my-2" autocomplete="" type="" placeholder="Message" name="" id=""></textarea>
+                    <button class="bg-white text-gray-700 my-2 w-11/12 md:w-2/4 p-4">Send Message</button>
+                </form>
+
+                
+            </div>
+            <!-- <button class="bg-white text-gray-600 text-2xl mt-10 p-4">contact Us</button> -->
         </div>
     </section>
    
