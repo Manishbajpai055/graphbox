@@ -16,6 +16,10 @@ body {
   color: #4c0dff;
 }
 
+a:hover {
+  color: #2563eb !important;
+}
+
 .cta-btn-bg-2 {
   width: 160px;
   height: 62px;
