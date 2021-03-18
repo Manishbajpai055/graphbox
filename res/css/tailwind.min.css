@@ -202,8 +202,7 @@ select { /* 1 */
 Correct the inability to style clickable types in iOS and Safari.
 */
 
-button,
-[type='button'] {
+button {
   -webkit-appearance: button;
 }
 
@@ -531,18 +530,9 @@ video {
   background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
 }
 
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgba(59, 130, 246, var(--tw-border-opacity));
-}
-
 .border-blue-600 {
   --tw-border-opacity: 1;
   border-color: rgba(37, 99, 235, var(--tw-border-opacity));
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-4 {
@@ -587,10 +577,6 @@ video {
 
 .order-1 {
   order: 1;
-}
-
-.order-2 {
-  order: 2;
 }
 
 .order-3 {
@@ -660,11 +646,6 @@ video {
   line-height: 1.5;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -688,11 +669,6 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
 }
 
 .ml-4 {
@@ -756,12 +732,12 @@ video {
   padding-bottom: 6rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
+.pt-4 {
+  padding-top: 1rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .relative {
@@ -1026,10 +1002,6 @@ video {
 
   .lg\:order-2 {
     order: 2;
-  }
-
-  .lg\:order-last {
-    order: 9999;
   }
 
   .lg\:h-screen {
